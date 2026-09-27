@@ -25,4 +25,5 @@ Then open the printed local URL (usually http://localhost:5173).
 ## Publishing to the Games collection
 
 This project also lives at https://github.com/rcarin/Games in the `typing-game/` folder.
-Run `npm run sync:games` to push the current tracked files there (see `scripts/sync-to-games.sh`).
+Every local `git commit` here auto-publishes to that repo via a `post-commit` hook
+(see `scripts/sync-to-games.sh`). To sync without committing, run `npm run sync:games`.
