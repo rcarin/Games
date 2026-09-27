@@ -21,3 +21,8 @@ Then open the printed local URL (usually http://localhost:5173).
 
     npm run build
     npm run preview
+
+## Publishing to the Games collection
+
+This project also lives at https://github.com/rcarin/Games in the `typing-game/` folder.
+Run `npm run sync:games` to push the current tracked files there (see `scripts/sync-to-games.sh`).
